@@ -16,7 +16,7 @@ export default function Resources() {
         </div>
         <div className="container px-4 py-12">
           <div className="-m-4 mx-auto flex flex-wrap justify-start gap-5">
-            {resourcesData.map((d, index) => (
+            {/* {resourcesData.map((d, index) => (
               <div className="w-full md:max-w-[314px]" key={index}>
                 <Card
                   key={d.title}
@@ -26,7 +26,7 @@ export default function Resources() {
                   href={d.href}
                 />
               </div>
-            ))}
+            ))} */}
           </div>
         </div>
       </div>
