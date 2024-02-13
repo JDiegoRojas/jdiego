@@ -16,7 +16,7 @@ export default function Home({ posts }) {
       <div>
         <div className="space-y-2 pb-8 pt-6 md:space-y-5">
           <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-            Bienvenid@_
+            Hola soy JDiego
           </h1>
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
             {siteMetadata.description}
@@ -92,11 +92,11 @@ export default function Home({ posts }) {
                 key={lastProject.title}
                 title={lastProject.title}
                 description={lastProject.description}
-                imgSrc={lastProject.imgSrc}
+                //imgSrc={lastProject.imgSrc}
                 href={lastProject.href}
               />
             </div>
-            <div className="flex flex-col">
+            {/* {lastResource && (<div className="flex flex-col">
               <h3>Recursos</h3>
               <Card
                 key={lastResource.title}
@@ -105,7 +105,8 @@ export default function Home({ posts }) {
                 imgSrc={lastResource.imgSrc}
                 href={lastResource.href}
               />
-            </div>
+            </div>)} */}
+            
           </div>
         </div>
       </div>

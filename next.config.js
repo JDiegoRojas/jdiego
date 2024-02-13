@@ -70,6 +70,7 @@ module.exports = () => {
         'picsum.photos',
         'avatars.githubusercontent.com',
         'github.com',
+        'lh3.googleusercontent.com',
         'camo.githubusercontent.com',
         'raw.githubusercontent.com',
       ],

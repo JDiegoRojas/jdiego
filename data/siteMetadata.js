@@ -1,19 +1,19 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: 'ggeorge',
-  author: 'George Giosue',
-  headerTitle: 'ggeorge',
-  description: 'Codigo codigo y otras cosas ja ja',
+  title: 'JDiego',
+  author: 'JDiego Rojas',
+  headerTitle: 'JDiego',
+  description: 'Mi primera página :D',
   language: 'es-PE',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://ggeorge.xyz',
-  siteRepo: 'https://github.com/georgegiosue/ggeorge',
+  siteUrl: 'https://jdiego.vercel.app',
+  siteRepo: 'https://github.com/JDiegoRojas/jdiego',
   siteLogo: '/static/images/logo.png',
   socialBanner: '/static/images/twitter-card.png',
-  email: 'peraldonamoc@gmail.com',
-  github: 'https://github.com/georgegiosue',
-  twitter: 'https://twitter.com/georgegiosue',
-  youtube: 'https://youtube.com/@ggeorge5',
+  email: 'diogo.juped@gmail.com',
+  github: 'https://github.com/JDiegoRojas',
+  twitter: 'https://twitter.com/DiogoJuped',
+  youtube: 'https://youtube.com/@jdiegorojas',
   locale: 'es-PE',
   analytics: {
     // If you want to use an analytics provider you have to add it to the

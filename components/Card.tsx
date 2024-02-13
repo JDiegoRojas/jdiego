@@ -4,7 +4,7 @@ import Link from './Link'
 export type CardProps = {
   title: string
   description: string
-  imgSrc: string
+  imgSrc?: string
   href: string
   className?: string
 }
