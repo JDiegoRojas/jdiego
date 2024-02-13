@@ -2,7 +2,7 @@ import Card from '@/components/Card'
 import Link from '@/components/Link'
 import Tag from '@/components/Tag'
 import projectsData from '@/data/projectsData'
-import resourcesData from '@/data/resourcesData'
+//import resourcesData from '@/data/resourcesData'
 import siteMetadata from '@/data/siteMetadata'
 import { formatDate } from 'pliny/utils/formatDate'
 
