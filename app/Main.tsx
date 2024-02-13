@@ -8,7 +8,7 @@ import { formatDate } from 'pliny/utils/formatDate'
 
 const MAX_DISPLAY = 3
 const lastProject = projectsData[projectsData.length - 1]
-const lastResource = resourcesData[resourcesData.length - 1]
+//const lastResource = resourcesData[resourcesData.length - 1]
 
 export default function Home({ posts }) {
   return (
