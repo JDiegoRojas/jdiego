@@ -106,7 +106,6 @@ export default function Home({ posts }) {
                 href={lastResource.href}
               />
             </div>)} */}
-            
           </div>
         </div>
       </div>
