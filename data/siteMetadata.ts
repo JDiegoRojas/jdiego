@@ -1,6 +1,6 @@
 export let siteMetadata = {
   siteUrl: 'https://www.leohuynh.dev',
-  siteRepo: 'https://github.com/JDiegoRojas/jdiegopage',
+  siteRepo: 'https://github.com/JDiegoRojas/jdiego',
   siteLogo: '/static/images/tu_foto.jpg',
   image: '/static/images/tu_foto.jpg',
   socialBanner: '/static/images/tu_foto.jpg',
