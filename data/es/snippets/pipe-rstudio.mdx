@@ -1,23 +1,26 @@
 ---
 heading: 'Operador pipe en RStudio'
 title: "Simplifica tu código con el operador '|>' en RStudio"
-date: "2024-05-06"
-type: "rstudio"
+date: '2024-05-06'
+type: 'rstudio'
 draft: false
-summary: "Aprende como usar el operador pipe en RStudio para simplificar tu código y hacerlo más legible."
+summary: 'Aprende como usar el operador pipe en RStudio para simplificar tu código y hacerlo más legible.'
 tags: [RStudio, R, Pipe]
 ---
 
 import Twemoji from './Twemoji.tsx'
 
 ## Introducción
+
 ¿Te gustaría simplificar tus flujos de trabajo en RStudio? ¡Entonces estás en el lugar correcto! El operador |> es una herramienta poderosa de la librería base de R que te permite encadenar operaciones de manera fluida y elegante.
 
 ### ¿Qué es el operador pipe '|>'?
+
 El operador |> (también conocido como "pipe forward") te permite pasar el resultado de una expresión como el primer argumento de la siguiente expresión. Esto hace que tu código sea más fácil de leer y entender.
 
 ## Instalamos los paquetes y cargamos las librerías
-Para usar el operador pipe en RStudio, necesitas tener instalada la versión ``4.1.0`` o superior de R. Además, necesitarás cargar la librería base de R, que incluye el operador pipe. Para manipular datos, también puedes cargar la librería ``dplyr``.
+
+Para usar el operador pipe en RStudio, necesitas tener instalada la versión `4.1.0` o superior de R. Además, necesitarás cargar la librería base de R, que incluye el operador pipe. Para manipular datos, también puedes cargar la librería `dplyr`.
 
 ```r
 # Instalar y cargar las librerías necesarias
@@ -28,12 +31,11 @@ library(dplyr)
 
 ```
 
-
-##  Ejemplo sin el operador pipe
+## Ejemplo sin el operador pipe
 
 #### Cargar el conjunto de datos
 
-Primero, carguemos el conjunto de datos ``mtcars``. Este conjunto de datos contiene mediciones de 11 atributos diferentes para 32 automóviles. Utilizaremos funciones como ``filter``, ``select``, ``summary`` y crearemos gráficos para explorar los datos.
+Primero, carguemos el conjunto de datos `mtcars`. Este conjunto de datos contiene mediciones de 11 atributos diferentes para 32 automóviles. Utilizaremos funciones como `filter`, `select`, `summary` y crearemos gráficos para explorar los datos.
 
 ```r
 # Cargar el conjunto de datos mtcars
@@ -45,7 +47,9 @@ head(mtcars)
 ```
 
 #### Filtrar y seleccionar
+
 Supongamos que queremos analizar solo los autos con un consumo de combustible (mpg) superior a 20. Filtraremos y seleccionaremos las columnas relevantes:
+
 ```r
 
 
@@ -67,8 +71,8 @@ print(avg_wt)
 
 ```
 
-
 ## Repitiendo lo mismo con el operador |>
+
 Ahora, hagamos lo mismo utilizando el operador |>:
 
 ```r

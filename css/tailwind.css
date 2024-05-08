@@ -136,7 +136,9 @@ html.lightbox-loading * {
 }
 
 * {
-  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+  transition:
+    background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
 }
 
 .thumbnail-image img {

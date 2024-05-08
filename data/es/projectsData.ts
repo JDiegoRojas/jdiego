@@ -28,7 +28,7 @@ export let projectsData: Project[] = [
     url: 'https://chatlab1.vercel.app/',
     builtWith: ['Nextjs', 'OpenAI', 'Tailwind', 'SDK Vercel'],
   },
- 
+
   {
     type: 'work',
     title: 'Blog personal',
@@ -39,7 +39,8 @@ export let projectsData: Project[] = [
   {
     type: 'self',
     title: 'Consultas CEJ',
-    description: 'Sistema que permite acceder de manera asíncrona a los archivos judiciales en Perú mediante suscripciones.',
+    description:
+      'Sistema que permite acceder de manera asíncrona a los archivos judiciales en Perú mediante suscripciones.',
     imgSrc: '/static/images/apicej.png',
     url: 'https://consultacej.vercel.app/',
     builtWith: ['Azure', 'Selenium', 'Nextjs', 'TypeScript', 'MongoDB'],
@@ -47,16 +48,10 @@ export let projectsData: Project[] = [
   {
     type: 'self',
     title: 'Detección de ETAs en tiempo real usando visión cumputacional e IA',
-    description:'Proyecto de portafolio en colaboración con George Peraldo',
+    description: 'Proyecto de portafolio en colaboración con George Peraldo',
     imgSrc: '',
     url: '',
-    builtWith: ['Python','Redes neuronales'],
+    builtWith: ['Python', 'Redes neuronales'],
     repo: ' ',
-    
-  }
-
-
-
-
-
+  },
 ]
