@@ -36,10 +36,10 @@ export let commentConfig = {
   provider: 'giscus', // 'giscus' | 'utterances' | 'disqus',
   // https://giscus.app/
   giscusConfig: {
-    repo: '', // process.env.GISCUS_REPO
-    repositoryId: '', // process.env.GISCUS_REPOSITORY_ID
-    category: '', // process.env.GISCUS_CATEGORY
-    categoryId: '', // process.env.GISCUS_CATEGORY_ID
+    repo: process.env.GISCUS_REPO, // process.env.GISCUS_REPO
+    repositoryId: process.env.GISCUS_REPOSITORY_ID, // process.env.GISCUS_REPOSITORY_ID
+    category: process.env.GISCUS_CATEGORY, // process.env.GISCUS_CATEGORY
+    categoryId: process.env.GISCUS_CATEGORY_ID, // process.env.GISCUS_CATEGORY_ID
     mapping: 'title',
     reactions: '1',
     metadata: '0',
@@ -49,7 +49,7 @@ export let commentConfig = {
   },
   // https://utteranc.es/
   utterancesConfig: {
-    repo: '', // process.env.UTTERANCES_REPO
+    repo: process.env.UTTERANCES_REPO, // process.env.UTTERANCES_REPO
     issueTerm: '',
     label: '',
     lightTheme: '',
@@ -57,6 +57,6 @@ export let commentConfig = {
   },
   // https://help.disqus.com/en/articles/1717111-what-s-a-shortname
   disqus: {
-    shortname: '', // process.env.DISQUS_SHORTNAME
+    shortname: process.env.DISQUS_SHORTNAME, // process.env.DISQUS_SHORTNAME
   },
 }
