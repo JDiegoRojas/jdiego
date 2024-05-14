@@ -31,9 +31,9 @@ export function TypedBios() {
     <div>
       <ul id="bios" className="hidden">
         <li>{tr.t('bio_1')}</li>
-        {/* <li>{tr.t('bio_2')}</li>
+         <li>{tr.t('bio_2')}</li>
         <li>{tr.t('bio_3')}</li>
-        <li>{tr.t('bio_4')}</li>
+        {/*<li>{tr.t('bio_4')}</li>
         <li>{tr.t('bio_5')}</li>
         <li>{tr.t('bio_6')}</li>
         <li>{tr.t('bio_7')}</li>

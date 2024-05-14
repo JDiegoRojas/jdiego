@@ -33,7 +33,7 @@ export let projectsData: Project[] = [
     type: 'work',
     title: 'Blog personal',
     imgSrc: '/static/images/pagejdiego.jpg',
-    repo: 'leohuynh.dev',
+    repo: '',
     builtWith: ['Next.js', 'Tailwind', 'Typescript', 'Prisma', 'Umami'],
   },
   {
@@ -47,8 +47,8 @@ export let projectsData: Project[] = [
   },
   {
     type: 'self',
-    title: 'Detección de ETAs en tiempo real usando visión cumputacional e IA',
-    description: 'Proyecto de portafolio en colaboración con George Peraldo',
+    title: 'Detección de ETAs en tiempo real usando visión computacional e IA',
+    description: 'Proyecto de portafolio en colaboración con George Peraldo.',
     imgSrc: '',
     url: '',
     builtWith: ['Python', 'Redes neuronales'],
